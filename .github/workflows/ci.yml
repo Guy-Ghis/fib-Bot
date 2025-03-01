@@ -1,6 +1,9 @@
-name: Build Docker Image and Comment on PR
+name: fib_Bot
 
 on:
+  push:
+    branches:
+      - main
   pull_request:
     types: [opened, synchronize]
 
